@@ -98,7 +98,7 @@ ICONS = {
     ':")': u'\U0001F633', '=")': u'\U0001F633',  # FLUSHED FACE
 }
 
-ICON_PATTERN = re.compile(r"[>:;=8B]+[\"'-]*[DSPp\\/\(\)<>]")
+ICON_PATTERN = re.compile(r"(?<!http)[>:;=8B]+[\"'-]*[DSPp\\/\(\)<>]")
 NOTICE_PATTERN = re.compile(r"(.*?:)(.*)")
 
 
